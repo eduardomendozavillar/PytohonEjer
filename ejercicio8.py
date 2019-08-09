@@ -3,7 +3,7 @@ class Empleado:
     def __init__(self):
         self.nombre = ""
         self.apellidos=""
-        self.edad=21
+        self.edad=19
 
     def saludar(self):
         return "Hola me llamo "+ self.nombre
