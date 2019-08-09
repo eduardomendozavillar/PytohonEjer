@@ -1,17 +1,17 @@
+
 class Empleado:
     def __init__(self):
-        self.nombre=""
+        self.nombre = ""
         self.apellidos=""
-        self.edad=19
-        
+        self.edad=21
+
     def saludar(self):
-        return "Hola me llamo ", self.nombre
-    
+        return "Hola me llamo "+ self.nombre
+
     def saludar2(self):
-    print ("hola me llamo", self.nombre+ , "el saludar 2")
-s
+        print ("Hola me llamo "+ self.nombre+ " el saludar2")
+
 
 emp = Empleado()
-emp.nombre="eduardo mendoza"
-print (emp.saludar())
-
+emp.nombre = "Eduardo Mendoza"
+print(emp.saludar())
